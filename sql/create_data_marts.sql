@@ -1,0 +1,1 @@
+-- Data marts creation SQL placeholder

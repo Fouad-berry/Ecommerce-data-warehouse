@@ -144,21 +144,22 @@ ecommerce-data-warehouse/
 └── README.md
 ```
 
+
 ## Pipeline
 
-CSV → Cleaning → Transformation → PostgreSQL → Data Warehouse → Data Marts → Dashboard
+CSV → Nettoyage → Transformation → PostgreSQL → Data Warehouse → Data Marts → Dashboard
 
-## Star Schema
+## Schéma en étoile (Star Schema)
 
-- **Fact Table**: fact_sales (product_id, date_id, quantity, sales)
-- **Dimensions**: dim_product, dim_seller, dim_date, dim_category
+- **Table de faits** : fact_sales (product_id, date_id, quantity, sales)
+- **Dimensions** : dim_product, dim_seller, dim_date, dim_category
 
 ## Data Marts
 
-1. Product Performance Mart
-2. Seller Performance Mart
-3. Category Analysis Mart
+1. Data Mart Performance Produit
+2. Data Mart Performance Vendeur
+3. Data Mart Analyse Catégorie
 
 ---
 
-This structure is scalable, analytics-ready, and BI friendly.
+Cette structure est scalable, optimisée pour l’analytics et adaptée à la BI.

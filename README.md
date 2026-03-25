@@ -105,12 +105,13 @@ Pour lancer ton projet :
 
 ---
 
-## How to run the project (EN)
-1. Set up PostgreSQL database
-2. Run SQL scripts to create tables
-3. Execute ETL pipeline
-4. Generate data marts
-5. Launch dashboard
+
+## Comment lancer le projet (FR)
+1. Préparer la base de données PostgreSQL
+2. Exécuter les scripts SQL pour créer les tables
+3. Lancer le pipeline ETL Python
+4. Générer les data marts
+5. Lancer le dashboard (optionnel)
 
 
 Structure du projet :

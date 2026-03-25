@@ -20,7 +20,18 @@ Ce projet implémente une architecture Data Warehouse complète pour des donnée
 - PostgreSQL as storage
 - Streamlit dashboard for visualization
 
+
 ## Project Structure
+
+Avant toute chose, créez et activez un environnement virtuel Python, puis installez les dépendances :
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+
+Structure du projet :
 
 ```
 ecommerce-data-warehouse/
@@ -34,6 +45,7 @@ ecommerce-data-warehouse/
 │   ├── data_cleaning.py
 │   ├── transform_data.py
 │   ├── load_data.py
+│   └── transform_and_load.py
 │
 ├── sql/
 │   ├── create_tables.sql

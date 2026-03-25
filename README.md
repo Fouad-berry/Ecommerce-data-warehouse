@@ -1,6 +1,18 @@
 # ecommerce-data-warehouse
 
-This project implements a complete Data Warehouse architecture for ecommerce data.
+
+**Recommandation : utilisez un environnement virtuel Python pour isoler les dépendances.**
+
+```bash
+# Création et activation d'un environnement virtuel (Linux/Mac)
+python3 -m venv .venv
+source .venv/bin/activate
+
+# Installation des dépendances
+pip install -r requirements.txt
+```
+
+Ce projet implémente une architecture Data Warehouse complète pour des données e-commerce.
 
 - ETL pipeline built with Python
 - Star schema data modeling
